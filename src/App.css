@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+.MainApp {
+    background-color: #0298025c;
+    width: 120px;
+    padding: 10px;
+    color: #ffffff;
+    font-weight: 700;
+    margin: 20px;
+    cursor: pointer;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.MainApp:hover{
+    /* background-color: #b3f8b3; */
+    color: #0298025c;
+    background-color: #fff;
+    border: 1px solid #0298025c;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Pay{
+    padding: 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+p:after {
+    content: ' \002A';
+    color: #ff0000;
 }
-
-.App-link {
-  color: #61dafb;
+.input_number{
+    height: 25px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color: #fff;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input_amount{
+    height: 25px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color: #fff;
+}
+.no-outline:focus {
+    outline: none;
+}
+.paybtn{
+    margin-top: 10px;
+    background-color: #589c58;
+    padding: 6px;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.paybtn:hover{
+    padding: 8px;
+    color: #0298025c;
+    background-color: #fff;
+    border: 1px solid #0298025c;
+    font-weight: 900;
+}
+.paybtn:hover:after {
+    opacity: 1;
+    right: 0;
+}
+.paybtn:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(5px);
 }
