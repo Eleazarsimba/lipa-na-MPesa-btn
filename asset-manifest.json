@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/lipa-na-MPesa-btn/static/css/main.726061a2.css",
+    "main.js": "/lipa-na-MPesa-btn/static/js/main.5ede9f49.js",
+    "static/js/787.45d003d5.chunk.js": "/lipa-na-MPesa-btn/static/js/787.45d003d5.chunk.js",
+    "static/media/notification.svg?s3g3t9": "/lipa-na-MPesa-btn/static/media/notification.5d0158671dd860c714c4.svg",
+    "static/media/notification.eot": "/lipa-na-MPesa-btn/static/media/notification.3657084dc0419605a91c.eot",
+    "static/media/notification.woff?s3g3t9": "/lipa-na-MPesa-btn/static/media/notification.c392cd33d9d9de730f9d.woff",
+    "static/media/notification.ttf?s3g3t9": "/lipa-na-MPesa-btn/static/media/notification.c5d9251ea82e42f75381.ttf",
+    "index.html": "/lipa-na-MPesa-btn/index.html",
+    "main.726061a2.css.map": "/lipa-na-MPesa-btn/static/css/main.726061a2.css.map",
+    "main.5ede9f49.js.map": "/lipa-na-MPesa-btn/static/js/main.5ede9f49.js.map",
+    "787.45d003d5.chunk.js.map": "/lipa-na-MPesa-btn/static/js/787.45d003d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.726061a2.css",
+    "static/js/main.5ede9f49.js"
+  ]
+}
